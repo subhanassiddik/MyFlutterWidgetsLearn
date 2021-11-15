@@ -1,0 +1,11 @@
+State Management + Software Dev. related
+number of videos :
+1. Provider => [42,43]
+2. Bloc => [44,45,51,54,59,93]
+3. MobX => [61]
+4. Cubit => [85,89]
+5. MVVM Architecture => [53]
+6. Unit Testing => [67]
+7. HTTP Request Simulation => [68-70]
+8. Bloc Testing => [71,72]
+9. Cubit Testing => [87]

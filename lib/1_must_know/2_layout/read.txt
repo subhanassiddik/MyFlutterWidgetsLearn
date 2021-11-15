@@ -1,0 +1,3 @@
+number of videos :
+1. layout => [3-10]
+2. basic widget => [12-15]
