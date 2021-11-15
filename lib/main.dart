@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget_learn/1_must_know/2_layout/5_anonymous_method.dart';
+import 'package:flutter_widget_learn/1_must_know/2_layout/6_text_style.dart';
+// import 'package:flutter_widget_learn/1_must_know/2_layout/5_anonymous_method.dart';
 // import 'package:flutter_widget_learn/1_must_know/2_layout/4_stateful_widget.dart';
 // import 'package:flutter_widget_learn/1_must_know/2_layout/3_container.dart';
 // import '1_must_know/1_basic_knowledge/1_life_cycle_state.dart';
@@ -28,7 +29,8 @@ class MyApp extends StatelessWidget {
           // WidgetRowColumn(),
           // WidgetContainer(),
           // WidgetStateFul(),
-          AnonymousMethod(),
+          // AnonymousMethod(),
+          WidgetTextStyle(),
     );
   }
 }
