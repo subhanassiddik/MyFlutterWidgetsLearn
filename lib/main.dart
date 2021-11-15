@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import '1_must_know/1_basic_knowledge/1_life_cycle_state.dart';
+// import '1_must_know/1_basic_knowledge/1_life_cycle_state.dart';
+import 'package:flutter_widget_learn/1_must_know/1_basic_knowledge/2_splash_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +16,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: AppLifeCycleState(),
+      home:
+          // AppLifeCycleState(),
+          SplashScreen(),
     );
   }
 }
