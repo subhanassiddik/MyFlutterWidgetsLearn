@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget_learn/1_must_know/2_layout/7_list_and_listview.dart';
+import 'package:flutter_widget_learn/1_must_know/2_layout/8_animated_container_dan_gesture_detector.dart';
+// import 'package:flutter_widget_learn/1_must_know/2_layout/7_list_and_listview.dart';
 // import 'package:flutter_widget_learn/1_must_know/2_layout/6_text_style.dart';
 // import 'package:flutter_widget_learn/1_must_know/2_layout/5_anonymous_method.dart';
 // import 'package:flutter_widget_learn/1_must_know/2_layout/4_stateful_widget.dart';
@@ -32,7 +33,8 @@ class MyApp extends StatelessWidget {
           // WidgetStateFul(),
           // AnonymousMethod(),
           // WidgetTextStyle(),
-          ListListView(),
+          // ListListView(),
+          WidgetAnimatedContainer(),
     );
   }
 }
