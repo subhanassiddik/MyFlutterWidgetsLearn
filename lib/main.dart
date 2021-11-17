@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget_learn/1_must_know/2_layout/10_image_widget.dart';
+import 'package:flutter_widget_learn/1_must_know/2_layout/11_spacer_widget.dart';
+// import 'package:flutter_widget_learn/1_must_know/2_layout/10_image_widget.dart';
 // import 'package:flutter_widget_learn/1_must_know/2_layout/9_stack_and_align_widget.dart';
 // import 'package:flutter_widget_learn/1_must_know/2_layout/8_animated_container_dan_gesture_detector.dart';
 // import 'package:flutter_widget_learn/1_must_know/2_layout/7_list_and_listview.dart';
@@ -38,7 +39,8 @@ class MyApp extends StatelessWidget {
           // ListListView(),
           // WidgetAnimatedContainer(),
           // WidgetStackAlign(),
-          WidgetImage(),
+          // WidgetImage(),
+          WidgetSpacer(),
     );
   }
 }
