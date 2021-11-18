@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget_learn/1_must_know/3_others/2_responsive_desain/1_flexible.dart';
+import 'package:flutter_widget_learn/1_must_know/3_others/2_responsive_desain/2_mediaquery.dart';
+// import 'package:flutter_widget_learn/1_must_know/3_others/2_responsive_desain/1_flexible.dart';
 // import 'package:get/get.dart';
 // import 'package:flutter_widget_learn/1_must_know/3_others/1_navigation/3_getX_part2/2_main_page_part2.dart';
 // import 'package:flutter_widget_learn/1_must_know/3_others/1_navigation/3_getX_part2/3_second_page_part2.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-    // return GetMaterialApp(
+      // return GetMaterialApp(
       // getPages: [
       //   GetPage(name: '/', page: () => LoginPagePart2()),
       //   GetPage(name: '/main', page: () => MainPagePart2()),
@@ -45,24 +46,25 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home:
-      // AppLifeCycleState(),
-      // SplashScreen(),
-      // WidgetText(),
-      // WidgetRowColumn(),
-      // WidgetContainer(),
-      // WidgetStateFul(),
-      // AnonymousMethod(),
-      // WidgetTextStyle(),
-      // ListListView(),
-      // WidgetAnimatedContainer(),
-      // WidgetStackAlign(),
-      // WidgetImage(),
-      // WidgetSpacer(),
-      // DragAbleWidget(),
-      // LoginPage()
-      // LoginPage(),
-      // LoginPagePart2(),
-      WidgetFlexible(),
+          // AppLifeCycleState(),
+          // SplashScreen(),
+          // WidgetText(),
+          // WidgetRowColumn(),
+          // WidgetContainer(),
+          // WidgetStateFul(),
+          // AnonymousMethod(),
+          // WidgetTextStyle(),
+          // ListListView(),
+          // WidgetAnimatedContainer(),
+          // WidgetStackAlign(),
+          // WidgetImage(),
+          // WidgetSpacer(),
+          // DragAbleWidget(),
+          // LoginPage()
+          // LoginPage(),
+          // LoginPagePart2(),
+          // WidgetFlexible(),
+          WidgetMediaQuery(),
     );
   }
 }

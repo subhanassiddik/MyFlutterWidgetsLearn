@@ -24,6 +24,7 @@ class WidgetFlexible extends StatelessWidget {
   }
 }
 
+
 Flexible mycontainer({Color warna, int flex}) {
   return Flexible(flex: flex, child: Container(color: warna));
 }
