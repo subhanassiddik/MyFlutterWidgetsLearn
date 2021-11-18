@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget_learn/1_must_know/3_others/1_navigation/1_multi_page/login_page.dart';
+import 'package:get/get.dart';
+import 'package:flutter_widget_learn/1_must_know/3_others/1_navigation/2_getX_part1/1_login_page.dart';
+// import 'package:flutter_widget_learn/1_must_know/3_others/1_navigation/1_multi_page/login_page.dart';
 // import 'package:flutter_widget_learn/1_must_know/2_layout/12_draggable_and_dragtarget.dart';
 // import 'package:flutter_widget_learn/1_must_know/2_layout/11_spacer_widget.dart';
 // import 'package:flutter_widget_learn/1_must_know/2_layout/10_image_widget.dart';
@@ -23,28 +25,29 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'Flutter Demo',
-      debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home:
-          // AppLifeCycleState(),
-          // SplashScreen(),
-          // WidgetText(),
-          // WidgetRowColumn(),
-          // WidgetContainer(),
-          // WidgetStateFul(),
-          // AnonymousMethod(),
-          // WidgetTextStyle(),
-          // ListListView(),
-          // WidgetAnimatedContainer(),
-          // WidgetStackAlign(),
-          // WidgetImage(),
-          // WidgetSpacer(),
-          // DragAbleWidget(),
-          LoginPage()
-    );
+    // return MaterialApp(
+    return GetMaterialApp(
+        title: 'Flutter Demo',
+        debugShowCheckedModeBanner: false,
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+        ),
+        home:
+            // AppLifeCycleState(),
+            // SplashScreen(),
+            // WidgetText(),
+            // WidgetRowColumn(),
+            // WidgetContainer(),
+            // WidgetStateFul(),
+            // AnonymousMethod(),
+            // WidgetTextStyle(),
+            // ListListView(),
+            // WidgetAnimatedContainer(),
+            // WidgetStackAlign(),
+            // WidgetImage(),
+            // WidgetSpacer(),
+            // DragAbleWidget(),
+            // LoginPage()
+            LoginPage());
   }
 }
