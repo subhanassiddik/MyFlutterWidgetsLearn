@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:flutter_widget_learn/1_must_know/3_others/1_navigation/2_getX_part1/1_login_page.dart';
+import 'package:flutter_widget_learn/1_must_know/3_others/1_navigation/3_getX_part2/2_main_page_part2.dart';
+import 'package:flutter_widget_learn/1_must_know/3_others/1_navigation/3_getX_part2/3_second_page_part2.dart';
+import 'package:flutter_widget_learn/1_must_know/3_others/1_navigation/3_getX_part2/1_login_page_part2.dart';
+// import 'package:flutter_widget_learn/1_must_know/3_others/1_navigation/2_getX_part1/1_login_page.dart';
 // import 'package:flutter_widget_learn/1_must_know/3_others/1_navigation/1_multi_page/login_page.dart';
 // import 'package:flutter_widget_learn/1_must_know/2_layout/12_draggable_and_dragtarget.dart';
 // import 'package:flutter_widget_learn/1_must_know/2_layout/11_spacer_widget.dart';
@@ -27,27 +30,37 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     // return MaterialApp(
     return GetMaterialApp(
-        title: 'Flutter Demo',
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-        home:
-            // AppLifeCycleState(),
-            // SplashScreen(),
-            // WidgetText(),
-            // WidgetRowColumn(),
-            // WidgetContainer(),
-            // WidgetStateFul(),
-            // AnonymousMethod(),
-            // WidgetTextStyle(),
-            // ListListView(),
-            // WidgetAnimatedContainer(),
-            // WidgetStackAlign(),
-            // WidgetImage(),
-            // WidgetSpacer(),
-            // DragAbleWidget(),
-            // LoginPage()
-            LoginPage());
+      getPages: [
+        GetPage(name: '/', page: () => LoginPagePart2()),
+        GetPage(name: '/main', page: () => MainPagePart2()),
+        GetPage(
+            name: '/second',
+            page: () => SecondPagePart2(),
+            transition: Transition.zoom),
+      ],
+      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      // home:
+      // AppLifeCycleState(),
+      // SplashScreen(),
+      // WidgetText(),
+      // WidgetRowColumn(),
+      // WidgetContainer(),
+      // WidgetStateFul(),
+      // AnonymousMethod(),
+      // WidgetTextStyle(),
+      // ListListView(),
+      // WidgetAnimatedContainer(),
+      // WidgetStackAlign(),
+      // WidgetImage(),
+      // WidgetSpacer(),
+      // DragAbleWidget(),
+      // LoginPage()
+      // LoginPage(),
+      // LoginPagePart2(),
+    );
   }
 }
