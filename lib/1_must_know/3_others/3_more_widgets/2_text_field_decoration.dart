@@ -9,6 +9,7 @@ class TextFieldDecoration extends StatefulWidget {
 //suffix => dibelakang / akhir
 
 class _TextFieldDecorationState extends State<TextFieldDecoration> {
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
