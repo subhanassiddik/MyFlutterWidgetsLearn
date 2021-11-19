@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'package:flutter_widget_learn/1_must_know/3_others/3_more_widgets/3_login.dart';
+import 'package:flutter_widget_learn/1_must_know/3_others/3_more_widgets/4_hero_clipRRect.dart';
+// import 'package:flutter/services.dart';
+// import 'package:flutter_widget_learn/1_must_know/3_others/3_more_widgets/3_login.dart';
 // import 'package:flutter_widget_learn/1_must_know/3_others/3_more_widgets/2_text_field_decoration.dart';
 // import 'package:flutter_widget_learn/1_must_know/3_others/3_more_widgets/1_text_field.dart';
 // import 'package:flutter_widget_learn/1_must_know/3_others/2_responsive_desain/2_mediaquery.dart';
@@ -27,16 +28,16 @@ import 'package:flutter_widget_learn/1_must_know/3_others/3_more_widgets/3_login
 // import 'package:flutter_widget_learn/1_must_know/2_layout/2_row_column.dart';
 
 // agar tampilan tetap potrait
-void main() {
-  WidgetsFlutterBinding.ensureInitialized();
-  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
-  runApp(MyApp());
-}
-
-//method biasa
 // void main() {
+//   WidgetsFlutterBinding.ensureInitialized();
+//   SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
 //   runApp(MyApp());
 // }
+
+// method biasa
+void main() {
+  runApp(MyApp());
+}
 
 class MyApp extends StatelessWidget {
   // This widget is the root of your application.
@@ -79,7 +80,8 @@ class MyApp extends StatelessWidget {
           // WidgetMediaQuery(),
           // WidgetTextField(),
           // TextFieldDecoration(),
-          Login(),
+          // Login(),
+          HeroClipRRect(),
     );
   }
 }
