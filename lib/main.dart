@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget_learn/1_must_know/3_others/3_more_widgets/7_google_font.dart';
+import 'package:flutter_widget_learn/2_should_know/1_provider/1/1_main.dart';
+// import 'package:flutter_widget_learn/1_must_know/3_others/3_more_widgets/7_google_font.dart';
 // import 'package:flutter_widget_learn/1_must_know/3_others/3_more_widgets/5_tabbar.dart';
 // import 'package:flutter_widget_learn/1_must_know/3_others/3_more_widgets/6_dropdown.dart';
 // import 'package:flutter_widget_learn/1_must_know/3_others/3_more_widgets/4_hero_clipRRect.dart';
@@ -40,11 +41,11 @@ import 'package:flutter_widget_learn/1_must_know/3_others/3_more_widgets/7_googl
 // method biasa
 void main() {
   runApp(
-    // MyApp(),
-    // WidgetTabBar(),
-    // WidgetDropDown(),
-    GoogleFont()
-  );
+      // MyApp(),
+      // WidgetTabBar(),
+      // WidgetDropDown(),
+      // GoogleFont(),
+      WidgetProvider());
 }
 
 class MyApp extends StatelessWidget {
@@ -52,45 +53,45 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        // return GetMaterialApp(
-        // getPages: [
-        //   GetPage(name: '/', page: () => LoginPagePart2()),
-        //   GetPage(name: '/main', page: () => MainPagePart2()),
-        //   GetPage(
-        //       name: '/second',
-        //       page: () => SecondPagePart2(),
-        //       transition: Transition.zoom),
-        // ],
-        title: 'Flutter Demo',
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          primarySwatch: Colors.blue,
-        ),
-        // home:
-            // AppLifeCycleState(),
-            // SplashScreen(),
-            // WidgetText(),
-            // WidgetRowColumn(),
-            // WidgetContainer(),
-            // WidgetStateFul(),
-            // AnonymousMethod(),
-            // WidgetTextStyle(),
-            // ListListView(),
-            // WidgetAnimatedContainer(),
-            // WidgetStackAlign(),
-            // WidgetImage(),
-            // WidgetSpacer(),
-            // DragAbleWidget(),
-            // LoginPage()
-            // LoginPage(),
-            // LoginPagePart2(),
-            // WidgetFlexible(),
-            // WidgetMediaQuery(),
-            // WidgetTextField(),
-            // TextFieldDecoration(),
-            // Login(),
-            // HeroClipRRect(),
-            // WidgetTabBar(),
-            );
+      // return GetMaterialApp(
+      // getPages: [
+      //   GetPage(name: '/', page: () => LoginPagePart2()),
+      //   GetPage(name: '/main', page: () => MainPagePart2()),
+      //   GetPage(
+      //       name: '/second',
+      //       page: () => SecondPagePart2(),
+      //       transition: Transition.zoom),
+      // ],
+      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      // home:
+      // AppLifeCycleState(),
+      // SplashScreen(),
+      // WidgetText(),
+      // WidgetRowColumn(),
+      // WidgetContainer(),
+      // WidgetStateFul(),
+      // AnonymousMethod(),
+      // WidgetTextStyle(),
+      // ListListView(),
+      // WidgetAnimatedContainer(),
+      // WidgetStackAlign(),
+      // WidgetImage(),
+      // WidgetSpacer(),
+      // DragAbleWidget(),
+      // LoginPage()
+      // LoginPage(),
+      // LoginPagePart2(),
+      // WidgetFlexible(),
+      // WidgetMediaQuery(),
+      // WidgetTextField(),
+      // TextFieldDecoration(),
+      // Login(),
+      // HeroClipRRect(),
+      // WidgetTabBar(),
+    );
   }
 }
