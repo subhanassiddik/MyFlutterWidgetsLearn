@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget_learn/2_should_know/2_bloc/1_no_package/main.dart';
+import 'package:flutter_widget_learn/2_should_know/2_bloc/2_with_package/main.dart';
+// import 'package:flutter_widget_learn/2_should_know/2_bloc/1_no_package/main.dart';
 // import 'package:flutter_widget_learn/2_should_know/1_provider/2/main.dart';
 // import 'package:flutter_widget_learn/2_should_know/1_provider/1/1_main.dart';
 // import 'package:flutter_widget_learn/1_must_know/3_others/3_more_widgets/7_google_font.dart';
@@ -49,7 +50,8 @@ void main() {
     // GoogleFont(),
     // WidgetProvider(),
     // PackageMultiProvider(),
-    BlocProviderNoLibrary(),
+    // BlocProviderNoLibrary(),
+    BlocPackage(),
   );
 }
 
