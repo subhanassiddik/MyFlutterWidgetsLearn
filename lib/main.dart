@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_widget_learn/2_should_know/2_bloc/4_multibloc_multipage/main.dart';
+import 'package:flutter_widget_learn/2_should_know/2_bloc/5_blog_plugin/main.dart';
+// import 'package:flutter_widget_learn/2_should_know/2_bloc/4_multibloc_multipage/main.dart';
 // import 'package:bloc/bloc.dart';
 // import 'package:hydrated_bloc/hydrated_bloc.dart';
 // import 'package:flutter_widget_learn/2_should_know/2_bloc/3_hidrated_bloc/main.dart';
@@ -64,8 +65,8 @@ import 'package:flutter_widget_learn/2_should_know/2_bloc/4_multibloc_multipage/
 
 void main() {
   runApp(
-    MultiBlocPage(),
-  );
+      // MultiBlocPage(),
+      BlocPlugin());
 }
 
 class MyApp extends StatelessWidget {
