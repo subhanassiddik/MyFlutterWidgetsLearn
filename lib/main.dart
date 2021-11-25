@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:bloc/bloc.dart';
-import 'package:hydrated_bloc/hydrated_bloc.dart';
-import 'package:flutter_widget_learn/2_should_know/2_bloc/3_hidrated_bloc/main.dart';
+import 'package:flutter_widget_learn/2_should_know/2_bloc/4_multibloc_multipage/main.dart';
+// import 'package:bloc/bloc.dart';
+// import 'package:hydrated_bloc/hydrated_bloc.dart';
+// import 'package:flutter_widget_learn/2_should_know/2_bloc/3_hidrated_bloc/main.dart';
 // import 'package:flutter_widget_learn/2_should_know/2_bloc/2_with_package/main.dart';
 // import 'package:flutter_widget_learn/2_should_know/2_bloc/1_no_package/main.dart';
 // import 'package:flutter_widget_learn/2_should_know/1_provider/2/main.dart';
@@ -45,19 +46,25 @@ import 'package:flutter_widget_learn/2_should_know/2_bloc/3_hidrated_bloc/main.d
 // }
 
 // method biasa
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  BlocSupervisor.delegate = await HydratedBlocDelegate.build();
+// void main() async {
+//   WidgetsFlutterBinding.ensureInitialized();
+//   BlocSupervisor.delegate = await HydratedBlocDelegate.build();
+//   runApp(
+//     // MyApp(),
+//     // WidgetTabBar(),
+//     // WidgetDropDown(),
+//     // GoogleFont(),
+//     // WidgetProvider(),
+//     // PackageMultiProvider(),
+//     // BlocProviderNoLibrary(),
+//     // BlocPackage(),
+//     HydratedBlocPackage(),
+//   );
+// }
+
+void main() {
   runApp(
-    // MyApp(),
-    // WidgetTabBar(),
-    // WidgetDropDown(),
-    // GoogleFont(),
-    // WidgetProvider(),
-    // PackageMultiProvider(),
-    // BlocProviderNoLibrary(),
-    // BlocPackage(),
-    HydratedBlocPackage(),
+    MultiBlocPage(),
   );
 }
 
